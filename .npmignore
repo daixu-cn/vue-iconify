@@ -1,0 +1,13 @@
+.*
+
+/dist/favicon.ico
+/src
+node_modules
+public
+main.ts
+index.html
+README.md
+tsconfig.json
+package.json
+package-lock.json
+vite.config.ts
