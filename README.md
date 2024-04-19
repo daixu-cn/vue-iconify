@@ -16,7 +16,7 @@ Of course, besides the `Alibaba Vector Icon Library`, you can also use other ico
 
 ## 🗺 Preview
 
-![Example](https://daixu.oss-ap-northeast-1.aliyuncs.com/images/vue-iconify.gif)
+![Example](https://daixu.oss-cn-hongkong.aliyuncs.com/markdown/vue-iconify.gif)
 
 ## 📦 Install
 

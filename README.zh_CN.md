@@ -16,7 +16,7 @@
 
 ## 🗺 预览
 
-![Example](https://daixu.oss-ap-northeast-1.aliyuncs.com/images/vue-iconify.gif)
+![Example](https://daixu.oss-cn-hongkong.aliyuncs.com/markdown/vue-iconify.gif)
 
 ## 📦 安装
 
