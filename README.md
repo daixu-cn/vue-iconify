@@ -59,7 +59,7 @@ app.mount('#app')
 import { Icon } from "vue-iconify"
 ```
 
-### DEMO
+### Example
 ```vue
 <template>
   <div id="Home">
