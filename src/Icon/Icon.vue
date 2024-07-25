@@ -1,11 +1,11 @@
 <template>
-  <span :class="identifier">
+  <i :class="identifier" style="display: inline-flex">
     <slot>
       <svg aria-hidden="true">
         <use :xlink:href="`#${href}`" />
       </svg>
     </slot>
-  </span>
+  </i>
 </template>
 
 <script setup lang="ts">
@@ -23,9 +23,12 @@ const href = ref(props.href)
 const slots = useSlots()
 
 function setSvgStyle() {
-  const $svg = document.querySelector<SVGElement>(`.${identifier} svg`)
-  if (!$svg) return
+  const $i = document.querySelector<SVGElement>(`.${identifier}`)
+  const $svg = $i?.querySelector<SVGElement>(`svg`)
+  if (!$i || !$svg) return
 
+  $i.style.width = props.size.toString()
+  $i.style.height = props.size.toString()
   $svg.style.width = props.size.toString()
   $svg.style.height = props.size.toString()
   $svg.style.fill = props.color
